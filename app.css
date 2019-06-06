@@ -49,26 +49,21 @@ img {
 
 }
 
-
+.hero {
+  background-image: url("6.JPG");
+}
 .skills {
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   left: 60%;
   transform: translate(-30%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  float: right;
+  display: flex;
+  flex-direction: row;
   
   text-align: center;
   
-}
-
-.skills2 {
-  position: absolute;
-  top: 50%;
-  left: 80%;
-  transform: translate(-30%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  
-  text-align: center;
 }
 
 div.card {
