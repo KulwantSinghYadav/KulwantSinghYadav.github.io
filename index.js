@@ -4,13 +4,13 @@ app.config(function($routeProvider) {
     .when("/", {
         templateUrl : "index.html"
     })
-    .when("/red", {
-        templateUrl : "red.htm"
+    .when("/home", {
+        templateUrl : "home.html"
     })
     .when("/green", {
-        templateUrl : "green.htm"
+        templateUrl : "projects.html"
     })
     .when("/blue", {
-        templateUrl : "blue.htm"
+        templateUrl : "contact.html"
     });
 });
