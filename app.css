@@ -55,6 +55,9 @@ img {
   width: 100%;
   display: table;
   background-image: url("6.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 
 }
 .skills {
