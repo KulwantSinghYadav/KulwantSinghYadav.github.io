@@ -5,12 +5,12 @@ app.config(function($routeProvider) {
         templateUrl : "index.html"
     })
     .when("/home", {
-        templateUrl : "/home/home.html"
+        templateUrl : "home/home.html"
     })
-    .when("/green", {
+    .when("/projects", {
         templateUrl : "projects.html"
     })
-    .when("/blue", {
+    .when("/contact", {
         templateUrl : "contact.html"
     });
 });

@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+
 
 <head>
   <title>Kulwant Yadav</title>
@@ -10,9 +14,9 @@
 
 
   <ul class="menu">
-    <li><a href="#!/home">Home</a></li>
-    <li><a href="#!/Projects">Projects</a></li>
-    <li><a href="#!/Contact">Contact</a></li>
+    <li><a href="#!home">Home</a></li>
+    <li><a href="#!projects">Projects</a></li>
+    <li><a href="#!contact">Contact</a></li>
   </ul>
 
  
@@ -20,9 +24,26 @@
 
   <div>AngularJS seed app: v<span app-version></span></div>
 
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+  <script>
+    
+    var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+  debugger;
+    $routeProvider
+    .when("/", {
+        templateUrl : "index.html"
+    })
+    .when("/home", {
+        templateUrl : "home/home.html"
+    })
+    .when("/projects", {
+        templateUrl : "projects.html"
+    })
+    .when("/contact", {
+        templateUrl : "contact.html"
+    });
+});
+  </script>
 
   </div>
 </body>
