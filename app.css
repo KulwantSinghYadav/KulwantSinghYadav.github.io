@@ -108,6 +108,8 @@ table, th , td {
   border: 1px solid grey;
   border-collapse: collapse;
   padding: 5px;
+  text-align: left;
+  vertical-align: top;
 }
 
 table tr:nth-child(odd) {
