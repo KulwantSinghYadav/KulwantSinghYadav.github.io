@@ -23,6 +23,7 @@
 
   <div>© 2019 Kulwant Singh Yadav<span></span></div>
 
+
   <script>
     var app = angular.module("myApp", ["ngRoute"]);
     app.config(function($routeProvider) {
@@ -32,6 +33,7 @@
       })
       .when("/home", {
           templateUrl : "home/home.html"
+          templateUrl : "education.html"
       })
       .when("/projects", {
           templateUrl : "projects.html"
