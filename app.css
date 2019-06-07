@@ -42,6 +42,13 @@
   color: white;
   background-color: #4CAF50;
 }
+
+
+.mainview {
+  margin-top: 50px;
+
+}
+
 img {
     display: block;
     width: 100%;
