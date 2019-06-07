@@ -89,8 +89,8 @@ div.card {
 div.header {
   background-color: #222;
   color: white;
-  padding: 10px;
-  font-size: 15px;
+  padding: 5px;
+  font-size: 12px;
   border-radius: 8px;
 }
 
@@ -98,7 +98,7 @@ div.container {
   padding: 5px;
   text-align: left;
   vertical-align: top;
-  
+  margin-top: 0px;
 }
 
 
