@@ -96,7 +96,8 @@ div.header {
 
 div.container {
   padding: 5px;
-  text-align: top;
+  text-align: left;
+  vertical-align: top;
   
 }
 
