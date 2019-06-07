@@ -55,7 +55,12 @@
 
 .homesections{
   margin-top: 10px;
-  background-color: #221718;
+  background-color: #6C6C6C;
+}
+
+.homesections > h1 {
+  color: white;
+
 }
 
 img {
