@@ -46,15 +46,16 @@
 
 .mainview {
   margin-top: 50px;
-
-
 }
 
 .includeview{
-  margin-top: 15px;
+  margin-top: 5px;
   background-color: black;
+}
 
-
+.includeview{
+  margin-top: 10px;
+  background-color: #221718;
 }
 
 img {
