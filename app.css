@@ -98,6 +98,11 @@ h1 {
   margin:1px;
 }
 
+p { 
+  padding:2px;
+  margin:2px;
+}
+
 div.container {
   padding: 5px;
   text-align: left;
