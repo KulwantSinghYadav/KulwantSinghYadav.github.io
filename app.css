@@ -49,9 +49,6 @@ img {
     
 
 }
-.container {
-  margin-top: 50px;
-}
 
 .hero {;
   width: 100%;
@@ -72,6 +69,7 @@ img {
   float: right;
   width: 50%;
   text-align: center;
+  margin-top: 50px;
   
 }
 
