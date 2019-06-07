@@ -87,9 +87,11 @@ div.card {
 div.header {
   background-color: #222;
   color: white;
-  padding: 5px;
+  padding: 15px;
   font-size: 12px;
   border-radius: 8px;
+  height: 60px;
+  ul { padding:0 }
 }
 
 div.container {
