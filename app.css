@@ -124,7 +124,7 @@ div.container {
 }
 
 table, th , td {
-  border: 1px solid grey;
+  border: bottom 1px solid grey;
   border-collapse: collapse;
   padding: 5px;
   text-align: left;
