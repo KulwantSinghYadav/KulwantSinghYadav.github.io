@@ -175,7 +175,7 @@ div.tile_cover{
     font-size: 16px;
     background-color: DodgerBlue;
     display: flex;
-    height: 320px;
+    height: 200px;
     margin: 10px;
 
 }
@@ -208,7 +208,7 @@ div.tile_img_cover{
 
 
 div.tile_img_container{
-  width: auto;
+  width: 180px;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
