@@ -201,13 +201,14 @@ div.tile_text{
 
 
 div.tile_img_cover{
-  
+  width: 300px;
   height: -webkit-fill-available;
 
 }
 
 
 div.tile_img_container{
+  width: auto;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
