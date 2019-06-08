@@ -213,7 +213,7 @@ div.tile_img_container{
 }
 
 
-div.tile_img{
+img.tile_img{
     display: block;
     width: auto;
     margin: 0 0;
