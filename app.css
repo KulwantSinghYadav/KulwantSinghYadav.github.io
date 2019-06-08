@@ -170,13 +170,10 @@ div.edulogo{
 }
 
 div.tile_main{
-    font-family: Open Sans;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: DodgerBlue;
     display: flex;
     height: 200px;
     margin: 10px 10px;
+  }
 
 div.tile_cover{
     font-family: Open Sans;
@@ -186,7 +183,6 @@ div.tile_cover{
     display: flex;
     height: 200px;
     margin: 10px 10px;
-
 }
 
 div.tile_text_cover{
