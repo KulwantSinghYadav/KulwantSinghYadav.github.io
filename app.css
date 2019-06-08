@@ -201,7 +201,7 @@ div.tile_text{
 
 
 div.tile_img_cover{
-  width: 300px;
+  width: 200px;
   height: -webkit-fill-available;
 
 }
@@ -219,7 +219,7 @@ div.tile_img_container{
 
 img.tile_img{
     display: block;
-    width: 240px;
+    width: 160px;
     margin: 0 0;
     height: -webkit-fill-available;
 }
