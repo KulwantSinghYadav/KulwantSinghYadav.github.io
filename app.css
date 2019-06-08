@@ -219,7 +219,7 @@ div.tile_img_container{
 
 img.tile_img{
     display: block;
-    width: auto;
+    width: 240px;
     margin: 0 0;
     height: -webkit-fill-available;
 }
