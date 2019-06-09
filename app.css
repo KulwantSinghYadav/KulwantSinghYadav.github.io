@@ -55,6 +55,9 @@
 
 .homesections{
   margin-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-color: darkgrey;
+  border-bottom-width: 1px;
   
   
 }
