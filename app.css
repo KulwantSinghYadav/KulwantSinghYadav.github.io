@@ -174,7 +174,7 @@ div.edulogo{
 div.tile_main{
   display: grid;    
   grid-gap: 5px;    
-  grid-template-columns: repeat(auto-fit, 500px);
+  grid-template-columns: repeat(auto-fit, 48%);
     width: -webkit-fill-available;
   }
 
@@ -185,7 +185,7 @@ div.tile_cover{
     font-size: 16px;
 /*  display: -webkit-inline-box;*/
     height: 180px;
-    margin: 10px 10px;
+    margin: 10px 1px 10px 10px;
     width: auto;
 }
 
@@ -216,15 +216,16 @@ div.tile_img_cover{
 
 
 div.tile_img_container{
-  width: 160px;
-  font-size: 30px;
+    width: 160px;
+    height: 170px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 
 img.tile_img{
     display: block;
-    width: 100%;
+    width: 140px;
     object-fit: cover;
     margin: 5px 5px 5px 5px;
     /*height: -webkit-fill-available;*/
@@ -245,7 +246,7 @@ img.cert_tile_img{
 div.cert_tile_text_container{
   width: 100%;
   height: 20%;
-  font-size: 14px;
+  font-size: 2em;
   object-fit: cover;
 }
 
