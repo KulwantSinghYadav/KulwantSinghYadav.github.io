@@ -77,7 +77,7 @@ img {
   width: 100%;
   height: 555px;
   display: table;
-  background-image: url("/assets/6.jpg");
+  background-image: url("/assets/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -171,7 +171,7 @@ div.edulogo{
 
 div.tile_main{
     display: flex;
-    height: 200px;
+    height: auto;
     margin: 10px 10px;
   }
 
