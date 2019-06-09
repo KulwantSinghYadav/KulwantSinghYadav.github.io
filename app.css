@@ -184,7 +184,7 @@ div.tile_cover{
     font-weight: 400;
     font-size: 16px;
 /*  display: -webkit-inline-box;*/
-    height: 200px;
+    height: 180px;
     margin: 10px 10px;
     width: auto;
 }
@@ -209,14 +209,14 @@ div.tile_text{
 
 
 div.tile_img_cover{
-  width: 200px;
+  width: 170px;
   height: -webkit-fill-available;
 
 }
 
 
 div.tile_img_container{
-  width: 180px;
+  width: 160px;
   font-size: 30px;
 
 }
