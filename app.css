@@ -174,11 +174,9 @@ div.edulogo{
 div.tile_main{
   display: grid;    
   grid-gap: 5px;    
-  grid-template-columns: repeat(auto-fit, 100px);    
-  grid-template-rows: repeat(2, 100px);
-    
-    height: auto;
-    margin: 10px 10px;
+  grid-template-columns: repeat(auto-fit, 600px);    
+  grid-template-rows: repeat(1, 220px);
+    margin: 5px 5px;
     width: -webkit-fill-available;
   }
 
@@ -190,18 +188,19 @@ div.tile_cover{
 /*  display: -webkit-inline-box;*/
     height: 200px;
     margin: 10px 10px;
-    width: 50%;
+    width: auto;
 }
 
 div.tile_text_cover{
   margin: 10px;
   font-size: 18px;
-  width: 50%;
+  width: -webkit-fill-available;
 }
 
 
 div.tile_text_container{
       font-family: Open Sans;
+      width: -webkit-fill-available;
 
 }
 
