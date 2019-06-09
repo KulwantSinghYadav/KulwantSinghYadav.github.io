@@ -43,6 +43,12 @@
   background-color: #4CAF50;
 }
 
+div.footer{
+  margin-top: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: darkgray;
+  border-bottom-width: 2px;
+}
 
 .mainview {
   margin-top: 50px;
