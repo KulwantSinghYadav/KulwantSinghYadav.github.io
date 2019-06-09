@@ -172,17 +172,22 @@ div.edulogo{
 }
 
 div.tile_main{
-    display: flex;
+  display: grid;    
+  grid-gap: 5px;    
+  grid-template-columns: repeat(auto-fit, 100px);    
+  grid-template-rows: repeat(2, 100px);
+    
     height: auto;
     margin: 10px 10px;
     width: -webkit-fill-available;
   }
 
 div.tile_cover{
+  display: flex;
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
-    display: -webkit-inline-box;
+/*  display: -webkit-inline-box;*/
     height: 200px;
     margin: 10px 10px;
     width: 50%;
