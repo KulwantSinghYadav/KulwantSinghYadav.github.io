@@ -226,9 +226,10 @@ div.tile_img_container{
 
 img.tile_img{
     display: block;
-    width: 170px;
+    width: 100%;
+    object-fit: cover;
     margin: 5px 5px 5px 5px;
-    height: -webkit-fill-available;
+    /*height: -webkit-fill-available;*/
 }
 
 div.certificate_tile_container{
@@ -239,7 +240,7 @@ div.certificate_tile_container{
 
 img.cert_tile_img{
   width: 100%;    
-  height: 60%;    
+  height: 60%;
   object-fit: cover;
 }
 
@@ -248,4 +249,10 @@ div.cert_tile_text_container{
   height: 20%;
   font-size: 14px;
   object-fit: cover;
+}
+
+p.cert_tile_text{
+  text-align: center;
+  font-family: Open Sans;
+
 }
