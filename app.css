@@ -50,12 +50,13 @@
 
 .includeview{
   margin-top: 5px;
-  background-color: black;
+  background-color: white;
 }
 
 .homesections{
   margin-top: 10px;
   background-color: #6C6C6C;
+  background-color: darkgray;
 }
 
 .homesections > h1 {
@@ -170,19 +171,21 @@ div.edulogo{
 }
 
 div.tile_main{
-    display: flex;
+    display: -webkit-inline-box;
     height: auto;
     margin: 10px 10px;
+    width: -webkit-fill-available;
   }
 
 div.tile_cover{
     font-family: Open Sans;
     font-weight: 400;
     font-size: 16px;
-    background-color: DodgerBlue;
-    display: flex;
+    background-color: darkgrey;
+    display: -webkit-inline-box;
     height: 200px;
     margin: 10px 10px;
+    width: -webkit-fill-available;
 }
 
 div.tile_text_cover{
