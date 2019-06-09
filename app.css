@@ -55,14 +55,15 @@
 
 .homesections{
   margin-top: 10px;
-  background-color: #6C6C6C;
-  background-color: darkgray;
+  
+  
 }
 
 .homesections > h1 {
   color: white;
   font-size: 20px;
   height: 20px
+  background-color: #6C6C6C;
 
 }
 
@@ -171,7 +172,7 @@ div.edulogo{
 }
 
 div.tile_main{
-    display: -webkit-inline-box;
+    display: flex;
     height: auto;
     margin: 10px 10px;
     width: -webkit-fill-available;
@@ -185,15 +186,14 @@ div.tile_cover{
     display: -webkit-inline-box;
     height: 200px;
     margin: 10px 10px;
-    width: -webkit-fill-available;
+    width: 50%;
 }
 
 div.tile_text_cover{
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 20px;
   font-size: 18px;
-  width: -webkit-fill-available;
+  width: 50%;
 }
 
 
@@ -218,8 +218,6 @@ div.tile_img_cover{
 div.tile_img_container{
   width: 180px;
   background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
   font-size: 30px;
 
 }
