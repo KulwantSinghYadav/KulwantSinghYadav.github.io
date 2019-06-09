@@ -55,14 +55,15 @@
 
 .homesections{
   margin-top: 10px;
-  
+  background-color: #6C6C6C;
+  background-color: darkgray;
 }
 
 .homesections > h1 {
   color: white;
   font-size: 20px;
   height: 20px
-  background-color: darkgray;
+
 }
 
 img {
@@ -170,10 +171,11 @@ div.edulogo{
 }
 
 div.tile_main{
-    display: flex;
+    display: -webkit-inline-box;
     height: auto;
     margin: 10px 10px;
-    width: max-content;
+    width: -webkit-fill-available;
+  }
 
 div.tile_cover{
     font-family: Open Sans;
