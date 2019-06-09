@@ -244,8 +244,9 @@ div.certificate_tile_container{
 
 img.cert_tile_img{
   width: 100%;    
-  height: 60%;
+  height: 70%;
   object-fit: cover;
+
 }
 
 div.cert_tile_text_container{
