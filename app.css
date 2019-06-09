@@ -45,9 +45,9 @@
 
 div.footer{
   margin-top: 20px;
-  border-bottom-style: solid;
-  border-bottom-color: darkgray;
-  border-bottom-width: 2px;
+  border-top-style: solid;
+  border-top-color: darkgray;
+  border-top-width: 1px;
 }
 
 .mainview {
