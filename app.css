@@ -239,13 +239,13 @@ div.certificate_tile_container{
 }
 
 img.cert_tile_img{
-  width: 200px;    
-  height: 180px;    
+  width: 100%;    
+  height: 80%;    
   object-fit: cover;
 }
 
 div.cert_tile_text_container{
-  width: 200px;
-  height: 20px;    
+  width: 100%;
+  height: 80%;    
   object-fit: cover;
 }
