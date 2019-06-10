@@ -231,6 +231,7 @@ div.tile_img_cover{
 div.tile_img_container{
   margin-top: 5px;
   display: table-cell;
+  vertical-align: middle;
   width: 160px;
   height: 170px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
