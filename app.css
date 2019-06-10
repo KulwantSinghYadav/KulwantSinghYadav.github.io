@@ -206,6 +206,7 @@ div.tile_text_cover{
   margin: 10px;
   font-size: 18px;
   width: -webkit-fill-available;
+  height: auto;
 }
 
 
@@ -223,7 +224,7 @@ div.tile_text{
 
 div.tile_img_cover{
   width: 170px;
-  height: -webkit-fill-available;
+  height: auto;
 
 }
 
