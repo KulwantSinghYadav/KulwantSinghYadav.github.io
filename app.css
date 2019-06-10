@@ -187,7 +187,7 @@ div.edulogo{
 div.tile_main{
   display: grid;    
   grid-gap: 5px;    
-  grid-template-columns: repeat(auto-fit, 48%);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     width: -webkit-fill-available;
   }
 
