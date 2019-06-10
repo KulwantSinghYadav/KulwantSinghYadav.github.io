@@ -75,7 +75,8 @@ div.footer{
   color: white;
   font-size: 20px;
   height: 20px;
-  background-color: #6C6C6C;
+  font-style: italic;
+  background-color: white;
 
 }
 
@@ -130,6 +131,7 @@ div.header {
   height: 60px;
 
 }
+
 h1 { 
   padding:1px;
   margin:1px;
