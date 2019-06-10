@@ -71,6 +71,7 @@ div.footer{
 
 .homesections > h1 {
   color: slategrey;
+  margin-bottom: 10px;
   font-size: 20px;
   height: 20px;
   font-style: italic;
