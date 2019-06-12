@@ -198,7 +198,7 @@ div.tile_cover{
     font-weight: 400;
     font-size: 18px;
 /*  display: -webkit-inline-box;*/
-    height: 180px;
+    height: auto;
     margin: 10px 1px 10px 10px;
     width: auto;
 }
