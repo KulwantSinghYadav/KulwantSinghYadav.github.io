@@ -251,10 +251,10 @@ div.tile_img_container{
 
 img.tile_img{
     display: block;
-    width: auto;
     object-fit: cover;
-    margin: 5px 5px 5px 5px;
-    /*height: -webkit-fill-available;*/
+    margin: 5px;
+    height: auto;
+    width: 15em;
 }
 
 div.certificate_tile_container{
