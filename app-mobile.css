@@ -232,7 +232,7 @@ div.tile_text{
 
 
 div.tile_img_cover{
-  width: 16em;
+  width: auto;
   height: auto; 
 
 }
@@ -242,7 +242,7 @@ div.tile_img_container{
   margin-top: 5px;
   display: table-cell;
   vertical-align: middle;
-  width: 160px;
+  width: auto;
   height: 170px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -251,7 +251,7 @@ div.tile_img_container{
 
 img.tile_img{
     display: block;
-    width: 140px;
+    width: auto;
     object-fit: cover;
     margin: 5px 5px 5px 5px;
     /*height: -webkit-fill-available;*/
