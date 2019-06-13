@@ -1,5 +1,10 @@
 /* app css stylesheet */
 
+.body{
+
+margin: 0px:;
+  }
+
 .menu {
  list-style-type: none;
   margin: 0;
@@ -191,8 +196,8 @@ div.edulogo{
 div.tile_main{
   display: grid;    
   grid-gap: 5px;    
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    width: -webkit-fill-available;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    width: auto;
   }
 
 div.tile_cover{
