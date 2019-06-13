@@ -4,6 +4,11 @@ body {
   margin: 0px;
   }
 
+div.menu_div{
+  height: auto;
+  width: auto;
+}
+
 .menu {
  list-style-type: none;
   margin: 0;
