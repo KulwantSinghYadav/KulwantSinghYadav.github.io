@@ -57,6 +57,25 @@ div.footer{
   border-top-width: 1px;
 }
 
+div.footer_img_container{
+ margin-top: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+img.footer_img{
+    display: block;
+    width: auto;
+    object-fit: cover;
+    margin: 5px 5px 5px 5px;
+    /*height: -webkit-fill-available;*/
+}
+
 .mainview {
 }
 
